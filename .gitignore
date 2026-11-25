@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-demo/
+*.log
+
+# Secrets: the model key lives only in the server's environment. Never commit it,
+# and never give it a VITE_ prefix (anything with that prefix ships to the browser).
+.env
+.env.*
+!.env.example
+
+# Local check output
+qa/screenshots/
+qa/logs/
+__pycache__/
